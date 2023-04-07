@@ -47,7 +47,7 @@ if UPDATE_PACKAGES.lower() == 'true':
     scall("pip install " + ' '.join(packages), shell=True)
 
 UPSTREAM_REPO = 'https://github.com/haruo75/SN-MLTB'
-UPSTREAM_BRANCH = 'master'
+UPSTREAM_BRANCH = 'heroku'
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
